@@ -12,6 +12,8 @@
 		A2314AF81FDB1B8D006631C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2314AF61FDB1B8D006631C5 /* Main.storyboard */; };
 		A2314AFA1FDB1B8D006631C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2314AF91FDB1B8D006631C5 /* Assets.xcassets */; };
 		A2314AFD1FDB1B8D006631C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2314AFB1FDB1B8D006631C5 /* LaunchScreen.storyboard */; };
+		A2314B051FDCB3F5006631C5 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A2314B041FDCB3F5006631C5 /* art.scnassets */; };
+		A2314B071FDCB5F4006631C5 /* SpaceShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2314B061FDCB5F4006631C5 /* SpaceShip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A2314AF91FDB1B8D006631C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2314AFC1FDB1B8D006631C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2314AFE1FDB1B8D006631C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2314B041FDCB3F5006631C5 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		A2314B061FDCB5F4006631C5 /* SpaceShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,9 @@
 		A2314AF11FDB1B8D006631C5 /* ARKitFun */ = {
 			isa = PBXGroup;
 			children = (
+				A2314B041FDCB3F5006631C5 /* art.scnassets */,
 				A2314AF21FDB1B8D006631C5 /* AppDelegate.swift */,
+				A2314B061FDCB5F4006631C5 /* SpaceShip.swift */,
 				A2314AF41FDB1B8D006631C5 /* ViewController.swift */,
 				A2314AF61FDB1B8D006631C5 /* Main.storyboard */,
 				A2314AF91FDB1B8D006631C5 /* Assets.xcassets */,
@@ -124,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2314AFD1FDB1B8D006631C5 /* LaunchScreen.storyboard in Resources */,
+				A2314B051FDCB3F5006631C5 /* art.scnassets in Resources */,
 				A2314AFA1FDB1B8D006631C5 /* Assets.xcassets in Resources */,
 				A2314AF81FDB1B8D006631C5 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2314B071FDCB5F4006631C5 /* SpaceShip.swift in Sources */,
 				A2314AF51FDB1B8D006631C5 /* ViewController.swift in Sources */,
 				A2314AF31FDB1B8D006631C5 /* AppDelegate.swift in Sources */,
 			);
